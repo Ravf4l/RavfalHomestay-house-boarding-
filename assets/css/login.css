@@ -1,0 +1,12 @@
+.card {
+    margin-top: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.loginAdmin {
+    background-image: url('../image/bg1.jpg');
+    background-size: cover;
+}

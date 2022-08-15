@@ -1,0 +1,285 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+    background-color: #252525;
+}
+.navbar-brand {
+    /* font-family: Viga; */
+    font-size: 32px;
+    margin-left: -50px;
+}
+
+.navbar-nav {
+  margin-right: -60px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url('../image/bg.1.jpg');
+  background-size: cover;
+  height: 440px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 31px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+
+/* Info panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  margin-top: -110px;
+  background-color: white;
+  padding: 30px;
+
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: rgb(22, 20, 18);
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* Working Space */
+.headfacility {
+  margin-top: 40px;
+  margin-bottom: -80px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.workingspace {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  font-size: 18px;
+  font-style: bold;
+  color: #000000;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+/*Pricing*/
+.headpricing {
+  margin-top: 40px;
+  margin-bottom: -80px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.workingspace .pricing {
+  background-color: #00BFFF;
+  color: white;
+  border-radius: 20px;
+  margin-left: 110px;
+}
+
+.workingspace .pricing2 {
+  border-style: solid;
+  border-color: #00BFFF;
+  color: #00BFFF;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.workingspace .pricing3{
+  font-size: 20px;
+  border-style: solid;
+  border-color: #000000;
+  color: #2e3233;
+  border-radius: 20px;
+  margin-left: 210px;
+}
+
+/* Slide */
+
+.slide {
+  max-width: auto;
+  height: 500px;
+  position: relative;
+}
+
+.slide1,.slide2,.slide3 {
+  position: absolute;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1 {
+  background: url('../image/1.jpg') no-repeat center;
+  animation: fade 10s infinite;
+  -webkit-animation: fade 10s infinite;
+}
+
+.slide2 {
+  background : url('../image/2.1.jpg') no-repeat center;
+  animation: fade2 10s infinite;
+  -webkit-animation: fade2 10s infinite;
+}
+
+.slide3 {
+  background: url('../image/3.jpeg') no-repeat center;
+  animation: fade3 10s infinite;
+  -webkit-animation: fade3 10s infinite;
+}
+
+@keyframes fade {
+  0%{opacity: 1}
+  33.333% {opacity: 0}
+  66.666% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes fade2 {
+  0%{opacity: 0}
+  33.333% {opacity: 1}
+  66.666% {opacity: 0}
+  100% {opacity: 0}
+}
+
+@keyframes fade3 {
+  0%{opacity: 0}
+  33.333% {opacity: 0}
+  66.666% {opacity: 1}
+  100% {opacity: 0}
+}
+
+/* Footer */
+.footer {
+  background-color: #252525;
+  margin-top: 5px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.footer h4 {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.footer h5 {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.footer h6 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+}
+
+
+/* Utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+/* Desktop Version */
+@media (min-width: 1200px) { 
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover {
+        /* content: ''; */
+        /* display: block; */
+        background-color:rgb(107, 107, 107);
+        border-radius: 40px;
+        /* width: 50%; */
+        /* margin: auto; */
+        /* padding-bottom: 5px; */
+        /* margin-bottom: -8px; */
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .workingspace {
+      text-align: left;
+      margin-left: 90px;
+    }
+
+    .testimonial h5 {
+      font-size: 32px;
+    }
+
+} 
