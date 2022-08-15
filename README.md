@@ -6,7 +6,7 @@ The theme is boarding house, in this web based application we can become a owner
 
 - Dashboard (guest)
 
-![img 1](Screenshot/db_guest.jpeg); ![img 3](Screenshot/ds_guest3.jpeg)
+![img 1](Screenshot/db_guest.jpeg) ![img 3](Screenshot/ds_guest3.jpeg)
 ![img 2](Screenshot/ds_guest2.jpeg)
 
 
