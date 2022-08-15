@@ -6,9 +6,9 @@ The theme is boarding house, in this web based application we can become a owner
 
 - Dashboard (guest)
 
-![img 1](Screenshot/db_guest.jpeg) ![img 3](Screenshot/ds_guest3.jpeg)
+![img 1](Screenshot/db_guest.jpeg) 
+![img 3](Screenshot/ds_guest3.jpeg)
 ![img 2](Screenshot/ds_guest2.jpeg)
-
 
 - Dashboard (member) (different Word and add rules)
 
@@ -38,6 +38,7 @@ The theme is boarding house, in this web based application we can become a owner
 ![img 15](Screenshot/report_data.jpeg)
 
 - Member Menu
+
 ![img 16](Screenshot/roominfo_member.jpeg)
 ![img 17](Screenshot/booking_room.jpeg)
 ![img 18](Screenshot/payment.jpeg)
